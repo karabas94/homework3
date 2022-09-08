@@ -1,6 +1,10 @@
 try:
     n = int(input('Enter of number: '))
-    print("Reverse number: ", n%10,(n%100)//10,n//100, sep='')
+    first = int(n%10)
+    second = int((n%100)//10)
+    third = int(n//100)
+    final = (first*100+second*10+third)
+    print(f'Reverse number: {final}')
 
 # Error info
 except ValueError:
