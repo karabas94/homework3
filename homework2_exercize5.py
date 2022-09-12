@@ -1,0 +1,9 @@
+seq = 'Escape sequences'
+alert = '\\a   Bell (alert)'
+bspace = '\\b   Backspace'
+nline = '\\n   New line'
+tab = '\\t   Horizontal tab'
+back = '\\\   Backslash \\'
+dmark = '\\"   Double quotation mark "'
+smark = "\\'   Single quotation mark '"
+print(seq, alert, bspace, tab, back, dmark, smark, sep='\n')
